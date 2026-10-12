@@ -1,0 +1,229 @@
+/* styles.css - stylesheet for CSS Lesson Part 1 */
+
+/* universal selector: everything gets Arial */
+* {
+    font-family: Arial;
+}
+
+/* background gradient for the whole page */
+body {
+    background: linear-gradient(to right, lightblue, lavender);
+}
+
+/* header (element selector) */
+header {
+    background: linear-gradient(to right, blue, purple);
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px gray;
+}
+
+/* navigation menu */
+nav {
+    background-color: darkblue;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* main white box where the lesson goes */
+.container {
+    max-width: 800px;
+    margin: 25px auto;
+    padding: 30px;
+    background-color: white;
+    line-height: 1.5;
+}
+
+h2 {
+    color: purple;
+}
+
+h3 {
+    color: blue;
+}
+
+/* code blocks */
+xmp {
+    background-color: black;
+    color: lightgreen;
+    padding: 15px;
+    overflow: auto;
+    margin: 15px 0;
+    font-size: 14px;
+}
+
+pre, code, xmp {
+    font-family: Courier New;
+}
+
+/* box that shows the result of the code */
+.output {
+    border: 2px dashed purple;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+/* tip / remember box */
+.remember {
+    background-color: yellow;
+    padding: 12px;
+    margin: 15px 0;
+}
+
+/* table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    background-color: blue;
+    color: white;
+    padding: 8px;
+}
+
+td {
+    border: 1px solid gray;
+    padding: 8px;
+}
+
+/* lesson buttons at the bottom */
+.next {
+    text-align: right;
+    margin-top: 30px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: darkblue;
+}
+
+/* ---------- demo styles used inside the lessons ---------- */
+
+/* class selector demo */
+.important {
+    color: red;
+}
+
+/* id selector demo */
+#title-demo {
+    color: purple;
+}
+
+/* text property demo */
+.text-demo {
+    color: blue;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px gray;
+}
+
+.indent-demo {
+    text-indent: 30px;
+    line-height: 1.5;
+}
+
+/* background-color demo */
+.bg-demo {
+    background-color: yellow;
+}
+
+/* gradient demos */
+.box {
+    width: 400px;
+    height: 200px;
+    background: linear-gradient(to right, blue, purple);
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.g-two {
+    height: 100px;
+    background: linear-gradient(blue, purple);
+}
+
+.g-three {
+    height: 100px;
+    background: linear-gradient(blue, purple, pink);
+}
+
+.g-right {
+    height: 60px;
+    background: linear-gradient(to right, blue, purple);
+}
+
+.g-left {
+    height: 60px;
+    background: linear-gradient(to left, blue, purple);
+}
+
+.g-top {
+    height: 60px;
+    background: linear-gradient(to top, blue, purple);
+}
+
+.g-bottom {
+    height: 60px;
+    background: linear-gradient(to bottom, blue, purple);
+}
+
+.circle {
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(red, yellow, blue);
+}
+
+/* opacity demos */
+.op {
+    width: 250px;
+    padding: 15px;
+    margin: 8px 0;
+    background-color: blue;
+    color: white;
+}
+
+.op-1 { opacity: 1; }
+.op-5 { opacity: 0.5; }
+.op-2 { opacity: 0.2; }
+
+/* profile card project */
+.card {
+    width: 400px;
+    padding: 30px;
+    margin: 20px auto;
+    background: linear-gradient(to right, blue, purple);
+    color: white;
+    text-align: center;
+    opacity: 0.9;
+}
+
+.card h1 {
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.card p {
+    font-size: 18px;
+}

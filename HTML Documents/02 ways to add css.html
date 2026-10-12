@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+    <title>2. Ways to Add CSS - CSS Lesson Part 1</title>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>2. Ways to Add CSS</h1>
+    </header>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../HTML Documents/01 what is css.html">1. What is CSS?</a>
+        <a href="../HTML Documents/02 ways to add css.html">2. Ways to Add CSS</a>
+        <a href="../HTML Documents/03 syntax and selectors.html">3. Syntax and Selectors</a>
+        <a href="../HTML Documents/04 text properties.html">4. Text Properties</a>
+        <a href="../HTML Documents/05 background color.html">5. Background Color</a>
+        <a href="../HTML Documents/06 gradients.html">6. Gradients</a>
+        <a href="../HTML Documents/07 div and opacity.html">7. Div and Opacity</a>
+        <a href="../HTML Documents/08 profile card.html">8. Profile Card</a>
+    </nav>
+
+    <div class="container">
+
+        <h2>Ways to Add CSS</h2>
+        <p>There are 3 ways to add CSS to a webpage: inline, internal, and external.</p>
+
+        <h3>1. Inline CSS</h3>
+        <p>Styles are coded right into the element's opening tag. You do not use selectors here.</p>
+<img class="code-img" src="../images/02 ways to add css code 1.png" width="765" alt="Code example">
+        <div class="output">
+            <p style="color: blue; font-size: 16px;">This paragraph has blue text.</p>
+        </div>
+
+        <h3>2. Internal CSS</h3>
+        <p>Styles are placed at the top of the HTML page inside the style tag. They target elements using CSS selectors (like tags, classes, or IDs).</p>
+<img class="code-img" src="../images/02 ways to add css code 2.png" width="717" alt="Code example">
+
+        <h3>3. External CSS</h3>
+        <p>This requires two separate files: an HTML file and a CSS file. This website uses external CSS (the file is <code>css/styles.css</code>).</p>
+        <p>styles.css (the stylesheet file)</p>
+<img class="code-img" src="../images/02 ways to add css code 3.png" width="247" alt="Code example">
+        <p>index.html (the web page file)</p>
+<img class="code-img" src="../images/02 ways to add css code 4.png" width="784" alt="Code example">
+
+        <h3>Comparison</h3>
+        <table>
+            <tr>
+                <th>Type</th>
+                <th>Where is it written?</th>
+                <th>Uses selectors?</th>
+            </tr>
+            <tr>
+                <td>Inline</td>
+                <td>Inside the tag (style="")</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>Internal</td>
+                <td>In the style tag at the top of the page</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>External</td>
+                <td>In a separate .css file</td>
+                <td>Yes</td>
+            </tr>
+        </table>
+        <p class="next"><a href="03 syntax and selectors.html">Next: 3. Syntax and Selectors &raquo;</a></p>
+    </div>
+
+</body>
+</html>

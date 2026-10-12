@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<head>
+    <title>3. Syntax and Selectors - CSS Lesson Part 1</title>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>3. Syntax and Selectors</h1>
+    </header>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../HTML Documents/01 what is css.html">1. What is CSS?</a>
+        <a href="../HTML Documents/02 ways to add css.html">2. Ways to Add CSS</a>
+        <a href="../HTML Documents/03 syntax and selectors.html">3. Syntax and Selectors</a>
+        <a href="../HTML Documents/04 text properties.html">4. Text Properties</a>
+        <a href="../HTML Documents/05 background color.html">5. Background Color</a>
+        <a href="../HTML Documents/06 gradients.html">6. Gradients</a>
+        <a href="../HTML Documents/07 div and opacity.html">7. Div and Opacity</a>
+        <a href="../HTML Documents/08 profile card.html">8. Profile Card</a>
+    </nav>
+
+    <div class="container">
+
+        <h2>Syntax and Selectors</h2>
+
+        <h3>Syntax Format</h3>
+<img class="code-img" src="../images/03 syntax and selectors code 1.png" width="247" alt="Code example">
+        <h3>Syntax Example</h3>
+<img class="code-img" src="../images/03 syntax and selectors code 2.png" width="208" alt="Code example">
+        <div class="remember">
+            <b>Formula:</b> selector &rarr; property &rarr; value<br>
+            <b>Example:</b> p &rarr; color &rarr; blue
+        </div>
+
+        <h3>CSS Selectors</h3>
+        <p>There are 4 ways to provide selectors: Universal, Element, Class, and ID.</p>
+
+        <h3>1. Universal Selector *</h3>
+        <p>The universal selector selects EVERYTHING.</p>
+<img class="code-img" src="../images/03 syntax and selectors code 3.png" width="275" alt="Code example">
+        <p><b>Meaning:</b> Everybody gets Arial. All elements get the font Arial, such as h1 to h6, p, and all text in the body. (This whole website uses it!)</p>
+
+        <h3>2. Element Selector</h3>
+        <p>The element selector uses an HTML tag.</p>
+<img class="code-img" src="../images/03 syntax and selectors code 4.png" width="208" alt="Code example">
+        <p><b>Meaning:</b> All paragraphs will become blue.</p>
+<img class="code-img" src="../images/03 syntax and selectors code 5.png" width="199" alt="Code example">
+        <p><b>Meaning:</b> All h1 will become red.</p>
+
+        <h3>3. Class Selector .</h3>
+        <p>A class allows us to give a special style to selected elements.</p>
+        <p>HTML:</p>
+<img class="code-img" src="../images/03 syntax and selectors code 6.png" width="515" alt="Code example">
+        <p>CSS:</p>
+<img class="code-img" src="../images/03 syntax and selectors code 7.png" width="199" alt="Code example">
+        <div class="output">
+            <p class="important">This is important.</p>
+            <p>This is normal.</p>
+            <p class="important">This is also important.</p>
+        </div>
+        <p><b>Meaning:</b> All elements with class="important" will become red.</p>
+
+        <h3>4. ID Selector #</h3>
+        <p>An ID identifies one specific element.</p>
+        <p>HTML:</p>
+<img class="code-img" src="../images/03 syntax and selectors code 8.png" width="343" alt="Code example">
+        <p>CSS:</p>
+<img class="code-img" src="../images/03 syntax and selectors code 9.png" width="227" alt="Code example">
+        <div class="output">
+            <h3 id="title-demo">My Website (this one is purple)</h3>
+        </div>
+        <p><b>Meaning:</b> that specific element will become purple.</p>
+
+        <h3>Selector Cheat Sheet</h3>
+        <table>
+            <tr>
+                <th>Selector</th>
+                <th>Symbol</th>
+                <th>Example</th>
+            </tr>
+            <tr>
+                <td>Universal</td>
+                <td>*</td>
+                <td>* { ... }</td>
+            </tr>
+            <tr>
+                <td>Element</td>
+                <td>(tag name)</td>
+                <td>p { ... }</td>
+            </tr>
+            <tr>
+                <td>Class</td>
+                <td>. (dot)</td>
+                <td>.important { ... }</td>
+            </tr>
+            <tr>
+                <td>ID</td>
+                <td># (hash)</td>
+                <td>#title { ... }</td>
+            </tr>
+        </table>
+        <div class="remember"><b>Remember:</b> . = CLASS and # = ID</div>
+        <p class="next"><a href="04 text properties.html">Next: 4. Text Properties &raquo;</a></p>
+    </div>
+
+
+</body>
+</html>
